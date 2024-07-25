@@ -22,3 +22,6 @@ dependencies = [
 
 [project.scripts]
 pi = "pi.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pi"]
